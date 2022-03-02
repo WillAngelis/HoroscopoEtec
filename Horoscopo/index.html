@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horóscopo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="main.js" defer></script>
+  </head>
+  <body>
+    <main class="container hide">
+      <!-- Criando Header -->
+      <header class="header">
+        <h1 class="header__title">HORÓSCOPO</h1>
+        <hr />
+        <h2 class="header__sign">SIGNO ZODÍACO <span class="signo"></span></h2>
+      </header>
+
+      <!-- Seções Sobre, Signo e Cores-->
+
+      <section class="main__sign">
+        <!-- Seção Sobre -->
+
+        <div class="sign">
+          <img class="sign__img" src="" alt="" />
+          <div class="date">
+            <p class="date__p"></p>
+          </div>
+        </div>
+
+        <div class="about">
+          <h3 class="about__sign">SOBRE <span class="signo"></span></h3>
+          <p class="about__paragraph"></p>
+        </div>
+
+        <!-- Seção Signo onde irão imagem e Data do signo -->
+      </section>
+
+      <!-- Criando Setas para mudar de Pagina -->
+
+      <section class="changePage">
+        <div class="backPage">
+          <p class="back">Anterior</p>
+        </div>
+        <div class="nextPage">
+          <p class="next">Próximo</p>
+        </div>
+      </section>
+
+      <section class="main__bottom">
+        <!-- Criando Seção Caracteristicas do Signo -->
+
+        <section class="caracteristics">
+          <h3 class="caracteristics__title">
+            CARACTERÍSTICAS <span class="signo">SIGNO</span>
+          </h3>
+          <p class="caracteristics__p"></p>
+        </section>
+
+        <!-- Seção Cores onde irão as cores do signo -->
+
+        <div class="colors">
+          <h4 class="colors__title">Cores</h4>
+          <div class="hovers">
+            <div class="color--one"></div>
+            <div class="color--two"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Criando Footer para o mobile -->
+      <footer>
+        <!-- Botão para voltar ao topo da pagina -->
+        <!-- <div class="goTop"><i class="fas fa-angle-up"></i></div> -->
+        <div><i class="goTop arrow"></i></div>
+      </footer>
+    </main>
+
+    <!-- Loader  -->
+
+    <div class="lds-ring">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </body>
+</html>
